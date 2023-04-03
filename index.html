@@ -54,7 +54,7 @@
         /* Left content end */
         .rc-about-items{
             display: flex;
-            margin-top: 100px;
+            margin-top: 20px;
             color: #fff;
         }
         .rca-left{
@@ -113,6 +113,13 @@
         .service-item img{
             width: 100%;
         }
+
+        @media(max-width: 1600px){
+            .for-small-screen{
+                display: none;
+            }
+        }
+
         
     </style>
 </head>
@@ -158,7 +165,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="service-flex-content">
+                    <div class="service-flex-content for-small-screen">
                         <div class="service-items">
                             <div class="service-item">
                                 <img src="./3.jpg" alt="">
