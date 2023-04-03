@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 2</title>
+    <style>
+        *{
+            margin: 0;
+        }
+        .container {
+            width: 800px;
+            height: 100vh;
+            background: #211f27;
+            margin: 0 auto;
+            display: flex;
+        }
+        .container-left{
+            width: 30%;
+            background: #000;
+            height: 100vh; 
+        }
+        .left-content{
+            padding: 50px 0;
+        }
+        .container-left .person{
+            width: 100%;
+        }
+        .contact{
+            color: #fff;
+            padding: 20px;
+        }
+        .contact h2{
+            font-size: 35px;
+            text-transform: uppercase;
+        }
+        .contact h4{
+            margin-bottom: 20px;
+            font-weight: 400;
+        }
+        .contact img{
+            width: 15px;
+        }
+        .contact p{
+            line-height: 1.4;
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+        }
+        .container-right{
+            width: 70%;
+        }
+        /* Left content end */
+        .rc-about-items{
+            display: flex;
+            margin-top: 100px;
+            color: #fff;
+        }
+        .rca-left{
+            width: 40%;
+            padding: 20px;
+            text-align: left;
+        }
+        .rca-right{
+            width: 60%;
+            padding: 20px;
+            text-align: right;
+        }
+        .rca-left img{
+            width: 100%;  
+        }
+        .rca-right h2{
+            font-size: 40px;
+            text-transform: uppercase;  
+        }
+        .rca-right p{
+            color: #f1f1f1;
+        }
+        .rca-right p span{
+            color: #fff;
+            border: 1px solid #03cfb1;
+            padding: 3px 5px;
+            font-size: 12px;
+            margin-top: 10px;
+            display: inline-block;
+        }
+        .rca-right a{
+            padding: 10px 20px;
+            background: #03cfb1;
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 10px;
+        }
+        /* About End */
+        .services h2{
+            font-size: 40px;
+            color: #f1f1f1;
+            text-transform: uppercase;
+            margin: 20px;
+            text-align: center;
+        }
+        .service-flex-content{
+            display: flex;
+            width: 100%;
+        }
+        .service-items{
+            width: 50%;
+            padding: 15px;
+        }
+        .service-item img{
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="container-left">
+            <div class="left-content">
+                <img class="person" src="./my.png" alt="my image">
+                <div class="contact">
+                    <h2>Ch Bappy</h2>
+                    <h4>Shopify Expert</h4>
+                    <p><img src="./placeholder.png" alt=""> Dhaka, Bangladesh</p>
+                    <p><img src="./phone-call.png" alt=""> +880 1614 369644</p>
+                    <p><img src="./mail.png" alt=""> chbappy.cse@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-right">
+            <div class="right-content">
+                <div class="rc-about-items">
+                    <div class="rca-right">
+                        <h2>About Me</h2>
+                        <p>Hello, I'm Ch Bappy, professional web developer based on Dhaka. I have rich exeperiencce in website development and customization. Also I am good at</p>
+                        <p><span>php</span> <span>wordpress</span> <span>Javascript</span> <span>Shopify</span></p>
+                        <a href="#">Download CV</a>
+                    </div>
+                    <div class="rca-left">
+                        <img src="./programmer.png" alt="">
+                    </div>
+                </div>
+                <div class="services">
+                    <h2>My Portfolio</h2>
+                    <div class="service-flex-content">
+                        <div class="service-items">
+                            <div class="service-item">
+                                <img src="./1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="service-items">
+                            <div class="service-item">
+                                <img src="./2.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="service-flex-content">
+                        <div class="service-items">
+                            <div class="service-item">
+                                <img src="./3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="service-items">
+                            <div class="service-item">
+                                <img src="./4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
